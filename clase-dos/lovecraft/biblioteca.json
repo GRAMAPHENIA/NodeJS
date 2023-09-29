@@ -1,0 +1,60 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Dagon",
+      "año": 1917,
+      "descripcion": "El narrador relata un encuentro sobrenatural en el mar después de una experiencia traumática en la Primera Guerra Mundial.",
+      "foto_de_portada": "url_de_la_imagen_1.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "La maldición que cayó sobre Sarnath",
+      "año": 1920,
+      "descripcion": "La historia de la fundación de la ciudad de Sarnath y su terrible destino después de profanar un antiguo templo.",
+      "foto_de_portada": "url_de_la_imagen_3.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "La búsqueda de Iranon",
+      "año": 1921,
+      "descripcion": "Un poeta inmortal busca una tierra mítica que recuerda de su juventud en una ciudad perdida.",
+      "foto_de_portada": "url_de_la_imagen_2.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "La llamada de Cthulhu",
+      "año": 1926,
+      "descripcion": "Una de las obras más famosas de Lovecraft, que presenta al antiguo dios Cthulhu.",
+      "foto_de_portada": "url_de_la_imagen_6.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "El color que cayó del cielo",
+      "año": 1927,
+      "descripcion": "Una extraña caída de meteoritos afecta a una granja y su entorno, desatando horrores cósmicos.",
+      "foto_de_portada": "url_de_la_imagen_9.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "El horror de Dunwich",
+      "año": 1929,
+      "descripcion": "Una aldea rural esconde un horror innombrable y una familia maldita.",
+      "foto_de_portada": "url_de_la_imagen_5.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Las sombras sobre Innsmouth",
+      "año": 1931,
+      "descripcion": "Un hombre visita el siniestro pueblo de Innsmouth y descubre sus terribles secretos.",
+      "foto_de_portada": "url_de_la_imagen_4.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "La sombra fuera del tiempo",
+      "año": 1934,
+      "descripcion": "Un profesor universitario experimenta saltos en el tiempo y se enfrenta a seres de otros mundos.",
+      "foto_de_portada": "url_de_la_imagen_10.jpg"
+    }
+  ]
+}
