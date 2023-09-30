@@ -1,1 +1,16 @@
+### recuperar informacion
+
 GET http://localhost:1234/lovecraft/biblioteca
+
+### para crear un libro
+
+POST http://localhost:1234/lovecraft
+Content-Type: application/json
+
+{
+      "id": 1,
+      "titulo": "Dagon",
+      "año": 1917,
+      "descripcion": "El narrador relata un encuentro sobrenatural en el mar después de una experiencia traumática en la Primera Guerra Mundial.",
+      "foto_de_portada": "url_de_la_imagen_1.jpg"
+}
