@@ -35,7 +35,7 @@ app.get('/lovecraft/biblioteca', (req, res) => {
 });
 
 app.post('/lovecraft', (req, res) => {
-  res.stattus(201).json(req.body);
+  res.status(201).json(req.body);
 });
 
 // La ultima ala que va a llegar
