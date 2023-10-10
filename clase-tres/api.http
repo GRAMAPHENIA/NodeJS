@@ -5,5 +5,5 @@ GET http://localhost:1234/lovecraft
 GET http://localhost:1234/lovecraft/3
 
 ### Recuperar un libro por genero
-GET http://localhost:1234/lovecraft/biblioteca?titulo=Dagon
+GET http://localhost:1234/biblioteca?genero=misterio
 

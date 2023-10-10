@@ -13,15 +13,13 @@ app.get("/lovecraft", (req, res) => {
   res.json(lovecraft);
 });
 
-app.get('/lovecraft/:id', (req, res) => {
-  const { id } = req.params 
-  const biblioteca = lovecraft.find(biblioteca => biblioteca.id === id)
-  if (biblioteca) return res.json(biblioteca)
+app.get("/lovecraft/:id", (req, res) => {
+  const { id } = req.params;
+  const biblioteca = lovecraft.find((biblioteca) => biblioteca.id === id);
+  if (biblioteca) return res.json(biblioteca);
 
-  res.status(400).json({message:'Libro no encontrado'})
-})
-
-
+  res.status(400).json({ message: "Libro no encontrado" });
+});
 
 const PORT = process.env.PORT ?? 1234;
 

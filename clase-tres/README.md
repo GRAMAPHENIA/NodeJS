@@ -16,5 +16,4 @@
 - `PUT`
 - `PATCH`
 
-`CRU D`
-
+> CRUD
