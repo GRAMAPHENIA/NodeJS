@@ -2,7 +2,7 @@
 GET http://localhost:1234/lovecraft
 
 ### Recuperar un libro
-GET http://localhost:1234/lovecraft/1
+GET http://localhost:1234/lovecraft/3
 
 ### Recuperar un libro por genero
 GET http://localhost:1234/lovecraft/biblioteca?titulo=Dagon
