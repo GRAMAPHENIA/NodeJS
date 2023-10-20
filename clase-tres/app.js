@@ -10,6 +10,13 @@ app.get("/", (req, res) => {
 
 // Todos los recursos que sean LOVECRAFT se identifican con /lovecraft
 app.get("/lovecraft", (req, res) => {
+  const {genero} = req.query
+  if (genero) {
+    const filtro = lovecraft.filter (
+      book => book.genero.some(g => g.toLowerCase() === genero.toLowerCase())
+    )
+    return res.json(filtro)
+  }
   res.json(lovecraft);
 });
 

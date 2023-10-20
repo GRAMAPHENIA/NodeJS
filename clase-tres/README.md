@@ -3,6 +3,7 @@
 ### Recursos
 
 - En rest todo es considerado un recurso. Una entidad, un libro un usuario. O puede ser una coleccion, una lista.
+
 - Cada recurso se va a identificar con una Url.
 
 # Verbos `HTTP`
